@@ -1,3 +1,1 @@
-Awesome66@
 
-<script src="https://kit.fontawesome.com/182ed59d2a.js" crossorigin="anonymous"></script>
