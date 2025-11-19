@@ -1,0 +1,67 @@
+nav a{
+	color: darkblue;
+	font-family: 'Lobster';
+	text-shadow: 0.5px 1px 0 red, 1px 1.5px 0 orange, 1.5px 2px 0 yellow, 2px 2.5px 0 green, 2.5px 3px 0 blue, 3px 3.5px 0 indigo, 3.5px 4px 0 violet; 
+}
+body{
+	background: url('image html.png');
+	background-size: cover;
+}
+h2{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+p{
+	text-align: left;
+}
+footer h3{
+	font-family: 'Pacifico';
+}
+footer a{
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+.modal {
+	position: fixed;
+	left: 0;
+	display: none;
+	top: 0;
+	background-color: rgba(243, 235, 72, 0.76);
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+}
+.modalBloc{
+	margin: 10% auto;
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+	background-color: white;
+	color: black;
+	border-top: 10px solid black;
+}
+.modalBtn{
+	margin: 5%;
+}
+.modalBtn a{
+	color: white;
+	background-color: black;
+}
+.modalBtn a:hover{
+	opacity: 0.7;
+	transform: scale(1.5);
+}
+.modalTextTitle{
+	font-size: 60px;
+}
+.modalTextSubtitle{
+	font-size: 20px;
+}
+.modalText img{
+	width: 60%;
+}

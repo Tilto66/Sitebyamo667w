@@ -1,0 +1,8 @@
+nav a{
+	color: darkblue;
+	font-family: 'Lobster';
+	text-shadow: 0.5px 1px 0 red, 1px 1.5px 0 orange, 1.5px 2px 0 yellow, 2px 2.5px 0 green, 2.5px 3px 0 blue, 3px 3.5px 0 indigo, 3.5px 4px 0 violet; 
+}
+h3{
+	text-align: center;
+}

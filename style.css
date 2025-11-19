@@ -1,0 +1,154 @@
+//* le @media screen ( media queries ) a quelques petis bugs : a verifier *//
+@media screen and (max-width: 414px){//*media queries*//
+	
+	#services{
+		flex-direction: column;
+		padding: 20px;
+		weight: 100%;
+	}
+	#pourquoi-coder p{
+		color: darkblue;
+	}
+	nav a{
+		flex-direction: column;
+		padding: 10px;
+	}
+	.icones_menu{
+		flex-direction: column;
+	}
+	.modalTextTitle{
+		font-size: 40px;
+	}
+	.modalBtn a{
+		display: block;
+		margin-bottom: 5%;
+	}
+}
+body{
+	text-align: center;
+	background: url('./image de code.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+body img{
+	height: 100%;
+	width: 100%;
+}
+a{
+	color: rgb(255, 255, 255);
+	padding: 20px;
+	text-decoration: none;
+	align-items: normal;
+}
+h1, h2, h3{
+	color: darkorange;
+}
+.bandeau a {
+	background-color: white;
+	color: red;
+	border: 1px solid red;
+	text-align: center;
+	align-items: center;
+	border-radius: 15px;
+	padding: 20px;
+	transition: ease 1.5s;
+}
+.bandeau a:hover {
+	background-color: rgba(240, 10, 10, 0.7);
+	color: white;
+}
+nav{
+	padding: 20px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+footer{
+	display: flex;
+}
+.social{
+	padding: 20px;
+}
+#i{
+	flex: 1;
+}
+#f{
+	flex: 1;
+}
+#t{
+	flex: 1;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+footer i:hover{
+	transform: rotate(360deg) scale(1.4);
+}
+footer i{
+	transition: ease-in-out 0.4s;
+}
+#icones{
+	display: none;
+}
+#services{
+	display: flex;
+	text-align: center;
+	background-color: #666;
+	color: white;
+	weight: 100%;
+}
+.services_item p{
+	flex: 1;
+	margin: 10px;
+	text-align: justify;
+}
+.icones_menu a{
+	align-items: normal;
+	text-align: justify;
+}
+.modal {
+	position: fixed;
+	left: 0;
+	display: none;
+	top: 0;
+	background-color: rgba(243, 235, 72, 0.76);
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	overflow: auto;
+}
+.modalBloc{
+	margin: 10% auto;
+	padding: 20px;
+	width: 50%;
+	text-align: center;
+	background-color: white;
+	color: black;
+	border-top: 10px solid black;
+}
+.modalBtn{
+	margin: 5%;
+}
+.modalBtn a{
+	color: white;
+	background-color: black;
+}
+.modalBtn a:hover{
+	opacity: 0.7;
+	transform: scale(1.5);
+}
+.modalTextTitle{
+	font-size: 60px;
+}
+.modalTextSubtitle{
+	font-size: 20px;
+}
+.modalText img{
+	width: 60%;
+}
+
+
+
+
+
+
+
